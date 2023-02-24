@@ -1,6 +1,6 @@
 type Props = {
   placeholder: string
-  style: React.CSSProperties
+  style?: React.CSSProperties
 }
 
 function Input({ placeholder, style }: Props) {

@@ -7,7 +7,18 @@ function Cart() {
 
   return (
     <div>
-      <Button className="checkout" onClick={() => navigate('/order/complete')} text='CHECKOUT'/>
+      <h1>Shopping Cart</h1>
+      <table>
+        <tr>
+          <td/>
+          <td>Product</td>
+          <td>Price</td>
+          <td>Quantity</td>
+          <td>Total</td>
+        </tr>
+      </table>
+      <Button
+        className="checkout" onClick={() => navigate('/order/complete')} text='CHECKOUT'/>
     </div>
   )
 }

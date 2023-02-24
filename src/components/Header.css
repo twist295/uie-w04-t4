@@ -1,0 +1,7 @@
+.store {
+  color: rgb(117, 120, 123);
+}
+
+.store:hover {
+  color: #c11271 !important;
+}
